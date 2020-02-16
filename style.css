@@ -1,17 +1,27 @@
-#header, #footer { /**Se utiliza # para editar los id */
-    background-color: rgba(102, 255, 0, 0.856);   /* se da formato al color del fondo */
-    height: 100px;                                  /* se da formato a la altura del area */
-    border: 1px solid black;                      /* se aplica un borde */
+body{
+    font-family: fantasy;
+    background: rgb(198, 214, 216);
+    }
+
+h1{
+    font-size: 20px;
 }
-#content{
-    margin-top: 10px;                               /* se agrega un espaciado arriba */
-    margin-bottom: 10px;                            /* se agrega un espaciado abajo*/
-    height: 50px;                                   /* se da formato a la altura del area */ 
+
+section{
+    width: 6cm;
+    height: 4cm;
+    border: 2px dashed gray;
+    margin: 5px;
+    float: left;
+    padding: 15px;
+
 }
-.columna{ /* Se utiliza . para editar las class*/
-    width: 33%;                                     /* se da formato al ancho del area */
-    height: 100%;                                   /* se da formato a la altura del area */
-    background-color: rgba(102, 255, 0, 0.856);   /* se da formato al color del fondo */
-    border: 1px solid black;                      /* se aplica un borde */
-    float: left;                                    /* se hace flotante y se define hacia donde acomodarse */
+
+#altura,
+#base,
+#submit{
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
+
