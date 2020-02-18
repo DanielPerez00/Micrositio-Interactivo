@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" leng> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../normalize/normalize.css">
     <link rel="stylesheet" href="style.css">
@@ -14,24 +14,26 @@
 
 <section id=datos>
 
-<article>
-     
-     <label>Base: </label> <br>
-     <input id="base" type="number" name="base" class="form-control" value="0"></article> 
 
-<article>
-     <label>Altura: </label><br>
-     <input id="altura" type="number" step="0.01" name="altura" class="form-control" value="0"></article> 
-     
+     <form id="fBase">
+          <label >Base: </label> 
+          <input id="base" type="number" name="base" class="form-control" value="0"></article> 
+     </form>
+
+     <form id="fAltura">
+          <label>Altura: </label>
+          <input id="altura" type="number" step="0.01" name="altura" class="form-control" value="0"></article> 
+          
+     </form>
      <br>
      <input id="submit" type="submit" value="Calcular">
 </section>
 
 <section id="Resultados">
-Perimetro = 
+Perimetro = <span id="rPerimetro"></span>
 <br>
 <br>
-Área = 
+Área = <span id="rArea"></span>
 </section>
 
 <script src='script.js'>   </script>

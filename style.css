@@ -5,6 +5,7 @@ body{
 
 h1{
     font-size: 20px;
+    
 }
 
 section{
@@ -14,14 +15,25 @@ section{
     margin: 5px;
     float: left;
     padding: 15px;
+    display: inline-block;
+    position: relative;
 
+    
 }
+
+
 
 #altura,
 #base,
-#submit{
+#submit
+{
     width: 100%;
     margin-top: 2px;
     margin-bottom: 2px;
 }
+
+
+
+
+
 
