@@ -1,18 +1,22 @@
 body{
     font-family: fantasy;
     background: rgb(198, 214, 216);
+  
+  
     }
 
 h1{
-    font-size: 20px;
+    text-align: center;
+  
+    
     
 }
 
 section{
+  
     width: 6cm;
     height: 4cm;
     border: 2px dashed gray;
-    margin: 5px;
     float: left;
     padding: 15px;
     display: inline-block;
@@ -20,8 +24,9 @@ section{
 
     
 }
-
-
+#datos{
+    margin-left: 30%;
+}
 
 #altura,
 #base,
